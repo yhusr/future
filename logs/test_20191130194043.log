@@ -1,0 +1,10 @@
+2019-11-30 19:40:45,109 - testlog - [test_04_add.py-->line:54] - INFO: 未登录增加项目
+2019-11-30 19:40:45,725 - testlog - [test_04_add.py-->line:54] - INFO: 借款人登录成功
+2019-11-30 19:40:46,333 - testlog - [test_04_add.py-->line:54] - INFO: 添加项目成功
+2019-11-30 19:40:46,916 - testlog - [test_04_add.py-->line:54] - INFO: 用户id为空
+2019-11-30 19:40:47,793 - testlog - [test_04_add.py-->line:54] - INFO: 标题为空
+2019-11-30 19:40:48,343 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为0
+2019-11-30 19:40:48,934 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为负数
+2019-11-30 19:40:49,507 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限为负数
+2019-11-30 19:40:50,098 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限小于1个月
+2019-11-30 19:40:50,692 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限大于36个月

@@ -1,0 +1,34 @@
+excel:
+  filepath: excelcases.xlsx
+  expected: success
+  failed: fail
+  result_col: 7
+  response_col: 8
+log:
+  formate: '%(asctime)s - %(name)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s'
+  logname: testlog
+  level: DEBUG
+runcase:
+  report: reporters
+  title: 测试报告
+  description: 这是我的测试报告
+  tester: y.h
+mysql:
+  host: api.lemonban.com
+  user: future
+  password: '123456'
+  port: 3306
+  db: futureloan
+  sql: select * from member where mobile_phone=%s
+  phone_sql: select id from member where mobile_phone=%s
+  id_sql: select member_id from loan order by member_id DESC limit 0,1
+  loan_sql: select loan.id from loan left join member on loan.member_id = member.id where member.id=%s order by loan.id DESC limit 0,1
+  amount_sql: select sum(amount) from loan where member_id = (select id from member where mobile_phone=%s)
+mobile:
+  phone: '188'
+
+api:
+  load: http://api.lemonban.com/futureloan
+  register: /member/register
+  header: {'X-Lemonban-Media-Type': 'lemonban.v2'}
+

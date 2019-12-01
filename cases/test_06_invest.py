@@ -1,0 +1,63 @@
+"""
+Time:2019/11/6 0006
+"""
+import unittest
+
+from libs.ddt import ddt, data
+
+from scripts.handle_excel import HandleExcel
+from scripts.handle_log import lt
+from scripts.handle_conf import uy
+from scripts.handle_mysql import HandleMysql
+from scripts.handle_re import HandleRe
+from scripts.handle_requests import HandleRequests
+
+
+@ddt
+class TestAdd(unittest.TestCase):
+    eo = HandleExcel('invest')
+    cases = eo.read_excel()
+
+    @classmethod
+    def setUpClass(cls):
+        cls.hm = HandleMysql()
+        cls.hr = HandleRequests()
+        cls.hr.common_heads({'X-Lemonban-Media-Type': 'lemonban.v2'})
+
+    @data(*cases)
+    def test_excel_case(self, obj):
+        # 构造url
+        register_url = ''.join((uy.open_yaml('api', 'load'), obj.url))
+        # 获取请求参数
+        data_num = HandleRe.str_regex(obj.data)
+        # Authorization
+        # 发起请求
+        res = self.hr.send(url=register_url, data=data_num)
+        res_data = res.json()
+        if obj.caseId == 2:
+            self.hr.one_session.headers.update({'Authorization': 'Bearer ' + res_data['data']['token_info']['token']})
+
+        try:
+            # 多条信息进行断言
+            self.assertListEqual([res_data.get('code'), res_data.get('msg')], [obj.expected, obj.msg], msg=f'用例{obj.title}已执行')
+        except AssertionError as e:
+            self.eo.write_excel(int(obj.caseId) + 1, uy.open_yaml('excel', 'result_col'),
+                                uy.open_yaml('excel', 'failed'))
+            self.eo.write_excel(int(obj.caseId) + 1, uy.open_yaml('excel', 'response_col'), res.text)
+            lt.error(e)
+            raise e
+        else:
+            self.eo.write_excel(int(obj.caseId) + 1, uy.open_yaml('excel', 'result_col'),
+                                uy.open_yaml('excel', 'expected'))
+            self.eo.write_excel(int(obj.caseId) + 1, uy.open_yaml('excel', 'response_col'), res.text)
+            lt.info(obj.title)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.hm.close()
+        cls.hr.close()
+
+if __name__ == '__main__':
+    unittest.main()
+
+

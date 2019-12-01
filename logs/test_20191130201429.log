@@ -1,0 +1,9 @@
+2019-11-30 20:14:35,805 - testlog - [test_05_verify.py-->line:55] - INFO: 管理员登录
+2019-11-30 20:14:38,140 - testlog - [test_05_verify.py-->line:47] - ERROR: Lists differ: [2, '项目不在审核中状态'] != [0, 'OK']
+
+First differing element 0:
+2
+0
+
+- [2, '项目不在审核中状态']
++ [0, 'OK'] : 用例管理员审核已执行

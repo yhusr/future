@@ -1,0 +1,56 @@
+2019-11-24 22:01:56,084 - testlog - [test_01_register.py-->line:51] - INFO: 正确格式的数据注册成功
+2019-11-24 22:01:57,169 - testlog - [test_01_register.py-->line:51] - INFO: 密码为空
+2019-11-24 22:01:58,258 - testlog - [test_01_register.py-->line:51] - INFO: 密码少于8位
+2019-11-24 22:01:59,214 - testlog - [test_01_register.py-->line:51] - INFO: 密码大于16位
+2019-11-24 22:01:59,741 - testlog - [test_01_register.py-->line:51] - INFO: 手机号为空
+2019-11-24 22:02:00,272 - testlog - [test_01_register.py-->line:51] - INFO: 手机号密码均为空
+2019-11-24 22:02:00,813 - testlog - [test_01_register.py-->line:51] - INFO: 手机号输入为空格
+2019-11-24 22:02:01,352 - testlog - [test_01_register.py-->line:45] - ERROR: Lists differ: [2, '密码格式为8到16位'] != [2, '无效的手机格式']
+
+First differing element 1:
+'密码格式为8到16位'
+'无效的手机格式'
+
+- [2, '密码格式为8到16位']
++ [2, '无效的手机格式'] : 用例手机号和密码均输入为空格已执行
+2019-11-24 22:02:02,092 - testlog - [test_02_login.py-->line:54] - INFO: 手机密码均为空
+2019-11-24 22:02:02,588 - testlog - [test_02_login.py-->line:54] - INFO: 手机密码正常输入
+2019-11-24 22:02:03,018 - testlog - [test_02_login.py-->line:54] - INFO: 密码为空
+2019-11-24 22:02:03,483 - testlog - [test_02_login.py-->line:54] - INFO: 手机号少于8位
+2019-11-24 22:02:04,459 - testlog - [test_03_recharge.py-->line:54] - INFO: 不登录充值
+2019-11-24 22:02:05,120 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资人登录成功
+2019-11-24 22:02:05,757 - testlog - [test_03_recharge.py-->line:54] - INFO: 正常输入投资信息
+2019-11-24 22:02:06,406 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资人id为空
+2019-11-24 22:02:06,881 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资人id为空格
+2019-11-24 22:02:07,350 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资数量为负数
+2019-11-24 22:02:07,850 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资数量为小数
+2019-11-24 22:02:08,330 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资数量为非字数
+2019-11-24 22:02:08,755 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资数量为空
+2019-11-24 22:02:09,187 - testlog - [test_03_recharge.py-->line:54] - INFO: 投资数量为0
+2019-11-24 22:02:09,861 - testlog - [test_04_add.py-->line:54] - INFO: 未登录增加项目
+2019-11-24 22:02:10,325 - testlog - [test_04_add.py-->line:54] - INFO: 借款人登录成功
+2019-11-24 22:02:10,731 - testlog - [test_04_add.py-->line:54] - INFO: 添加项目成功
+2019-11-24 22:02:11,127 - testlog - [test_04_add.py-->line:54] - INFO: 用户id为空
+2019-11-24 22:02:12,046 - testlog - [test_04_add.py-->line:54] - INFO: 标题为空
+2019-11-24 22:02:12,730 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为0
+2019-11-24 22:02:13,411 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为负数
+2019-11-24 22:02:14,087 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限为负数
+2019-11-24 22:02:14,775 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限小于1个月
+2019-11-24 22:02:15,463 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限大于36个月
+2019-11-24 22:02:16,451 - testlog - [test_05_verify.py-->line:52] - INFO: 管理员登录
+2019-11-24 22:02:17,610 - testlog - [test_05_verify.py-->line:52] - INFO: 管理员审核
+2019-11-24 22:02:18,851 - testlog - [test_06_invest.py-->line:53] - INFO: 未登录进行投资
+2019-11-24 22:02:19,463 - testlog - [test_06_invest.py-->line:53] - INFO: 投资人登录
+2019-11-24 22:02:20,525 - testlog - [test_06_invest.py-->line:53] - INFO: 投资成功
+2019-11-24 22:02:21,575 - testlog - [test_06_invest.py-->line:53] - INFO: 投资金额带小数
+2019-11-24 22:02:22,654 - testlog - [test_06_invest.py-->line:53] - INFO: 投资金额为负数
+2019-11-24 22:02:23,705 - testlog - [test_06_invest.py-->line:53] - INFO: 投资金额个位不为0
+2019-11-24 22:02:24,769 - testlog - [test_06_invest.py-->line:53] - INFO: 投资金额十位不为0
+2019-11-24 22:02:25,825 - testlog - [test_06_invest.py-->line:47] - ERROR: Lists differ: [2, '该标可投金额不足,可投金额：798000.0'] != [2, '该项目不在竞标中状态']
+
+First differing element 1:
+'该标可投金额不足,可投金额：798000.0'
+'该项目不在竞标中状态'
+
+- [2, '该标可投金额不足,可投金额：798000.0']
++ [2, '该项目不在竞标中状态'] : 用例投资金额大于剩余金额已执行

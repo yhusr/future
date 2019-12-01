@@ -1,0 +1,15 @@
+admin:
+  password: '12345678'
+  regName: admin
+  userId: 13268
+  userPhone: '18896820734'
+borrower:
+  password: '12345678'
+  regName: borrower
+  userId: 13269
+  userPhone: '18870856392'
+investor:
+  password: '12345678'
+  regName: investor
+  userId: 13270
+  userPhone: '18882643570'

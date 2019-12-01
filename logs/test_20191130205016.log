@@ -1,0 +1,41 @@
+2019-11-30 20:50:18,528 - testlog - [test_01_register.py-->line:51] - INFO: 正确格式的数据注册成功
+2019-11-30 20:50:19,554 - testlog - [test_01_register.py-->line:51] - INFO: 密码为空
+2019-11-30 20:50:20,595 - testlog - [test_01_register.py-->line:51] - INFO: 密码少于8位
+2019-11-30 20:50:21,604 - testlog - [test_01_register.py-->line:51] - INFO: 密码大于16位
+2019-11-30 20:50:22,200 - testlog - [test_01_register.py-->line:51] - INFO: 手机号为空
+2019-11-30 20:50:22,791 - testlog - [test_01_register.py-->line:51] - INFO: 手机号密码均为空
+2019-11-30 20:50:23,383 - testlog - [test_01_register.py-->line:51] - INFO: 手机号输入为空格
+2019-11-30 20:50:23,984 - testlog - [test_01_register.py-->line:45] - ERROR: Lists differ: [2, '密码格式为8到16位'] != [2, '无效的手机格式']
+
+First differing element 1:
+'密码格式为8到16位'
+'无效的手机格式'
+
+- [2, '密码格式为8到16位']
++ [2, '无效的手机格式'] : 用例手机号和密码均输入为空格已执行
+2019-11-30 20:50:24,979 - testlog - [test_02_login.py-->line:54] - INFO: 手机密码均为空
+2019-11-30 20:50:25,728 - testlog - [test_02_login.py-->line:54] - INFO: 手机密码正常输入
+2019-11-30 20:50:26,291 - testlog - [test_02_login.py-->line:54] - INFO: 密码为空
+2019-11-30 20:50:26,936 - testlog - [test_02_login.py-->line:54] - INFO: 手机号少于8位
+2019-11-30 20:50:27,844 - testlog - [test_03_recharge.py-->line:71] - INFO: 不登录充值
+2019-11-30 20:50:28,454 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资人登录成功
+2019-11-30 20:50:29,297 - testlog - [test_03_recharge.py-->line:71] - INFO: 正常输入投资信息
+2019-11-30 20:50:29,908 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资人id为空
+2019-11-30 20:50:30,522 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资人id为空格
+2019-11-30 20:50:31,147 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资数量为负数
+2019-11-30 20:50:31,757 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资数量为小数
+2019-11-30 20:50:32,363 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资数量为非字数
+2019-11-30 20:50:32,969 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资数量为空
+2019-11-30 20:50:33,578 - testlog - [test_03_recharge.py-->line:71] - INFO: 投资数量为0
+2019-11-30 20:50:34,557 - testlog - [test_04_add.py-->line:54] - INFO: 未登录增加项目
+2019-11-30 20:50:35,181 - testlog - [test_04_add.py-->line:54] - INFO: 借款人登录成功
+2019-11-30 20:50:35,784 - testlog - [test_04_add.py-->line:54] - INFO: 添加项目成功
+2019-11-30 20:50:36,396 - testlog - [test_04_add.py-->line:54] - INFO: 用户id为空
+2019-11-30 20:50:37,259 - testlog - [test_04_add.py-->line:54] - INFO: 标题为空
+2019-11-30 20:50:37,880 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为0
+2019-11-30 20:50:38,474 - testlog - [test_04_add.py-->line:54] - INFO: 借款数量为负数
+2019-11-30 20:50:39,075 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限为负数
+2019-11-30 20:50:39,668 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限小于1个月
+2019-11-30 20:50:40,265 - testlog - [test_04_add.py-->line:54] - INFO: 借款期限大于36个月
+2019-11-30 20:50:41,222 - testlog - [test_05_verify.py-->line:55] - INFO: 管理员登录
+2019-11-30 20:50:42,296 - testlog - [test_05_verify.py-->line:55] - INFO: 管理员审核

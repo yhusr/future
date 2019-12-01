@@ -1,0 +1,8 @@
+2019-11-30 18:04:06,181 - testlog - [test_03_recharge.py-->line:68] - ERROR: Lists differ: [1003, '未授权或token已过期'] != [0, 'OK']
+
+First differing element 0:
+1003
+0
+
+- [1003, '未授权或token已过期']
++ [0, 'OK'] : 用例正常输入投资信息已执行
