@@ -1,0 +1,4 @@
+2019-12-08 21:25:44,655 - testlog - [test_02_login.py-->line:61] - INFO: 手机密码均为空
+2019-12-08 21:25:45,607 - testlog - [test_02_login.py-->line:61] - INFO: 手机密码正常输入
+2019-12-08 21:25:46,634 - testlog - [test_02_login.py-->line:61] - INFO: 密码为空
+2019-12-08 21:25:47,377 - testlog - [test_02_login.py-->line:61] - INFO: 手机号少于8位

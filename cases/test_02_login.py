@@ -12,13 +12,14 @@ from scripts.handle_mysql import HandleMysql
 from scripts.handle_re import HandleRe
 from scripts.handle_requests import HandleRequests
 from scripts.handle_path import CONFIGPATH
+from scripts.handle_phone import HandlePhone
 
 
 @ddt
 class TestLogin(unittest.TestCase):
     eo = HandleExcel('login')
     cases = eo.read_excel()
-    hy = HandleYaml(os.path.join(CONFIGPATH, 'token_infor.yaml'))
+    hy = HandleYaml(os.path.join(CONFIGPATH, 'register_phone.yaml'))
 
     @classmethod
     def setUpClass(cls):
@@ -28,6 +29,11 @@ class TestLogin(unittest.TestCase):
 
     @data(*cases)
     def test_excel_case(self, obj):
+        # 充值前生成手机号码以及相关成员的信息
+        user_ph = self.hy.open_yaml('investor', 'userPhone')
+        result_data = self.hm.get_mysql_result(uy.open_yaml('mysql', 'sql'), args=[user_ph])
+        if not result_data:
+            HandlePhone.generate_register_phone()
         title = obj.title
         base_url = uy.open_yaml('api', 'load')
         register_url = ''.join((base_url, obj.url))
