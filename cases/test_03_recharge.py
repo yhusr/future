@@ -12,6 +12,7 @@ from scripts.handle_mysql import HandleMysql
 from scripts.handle_re import HandleRe
 from scripts.handle_requests import HandleRequests
 from scripts.handle_path import PERSONPATH
+from scripts.handle_phone import HandlePhone
 
 
 @ddt
@@ -28,6 +29,9 @@ class TestRecharge(unittest.TestCase):
 
     @data(*cases)
     def test_excel_case(self, obj):
+        #充值前生成手机号码以及相关成员的信息
+        if obj.caseId == 1:
+            HandlePhone.generate_register_phone()
         # 构造url
         register_url = ''.join((uy.open_yaml('api', 'load'), obj.url))
         # 获取请求参数

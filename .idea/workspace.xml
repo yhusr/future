@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7d48c70-34a5-44dd-8fdb-1d8630430b28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/test_03_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test_03_recharge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/excelcases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datas/excelcases.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,88 @@
     <favorites_list name="future" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#115#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/register_phone.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cases/test_01_register.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#28#43#0" expanded="true" />
+                <marker date="1575795489494" expanded="true" signature="474:615" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/handle_phone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1169">
+              <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="e#124#133#0" expanded="true" />
+                <marker date="1574557899019" expanded="true" signature="390:395" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cases/test_02_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+              <folding>
+                <element signature="e#28#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cases/test_03_recharge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="e#28#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/casesconf.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +139,6 @@
         <option value="$PROJECT_DIR$/scripts/handle_path.py" />
         <option value="$PROJECT_DIR$/scripts/handle_log.py" />
         <option value="$PROJECT_DIR$/scripts/handle_phone.py" />
-        <option value="$PROJECT_DIR$/cases/test_01_register.py" />
         <option value="$PROJECT_DIR$/cases/test_02_login.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/scripts/handle_requests.py" />
@@ -66,9 +147,10 @@
         <option value="$PROJECT_DIR$/cases/test_06_invest.py" />
         <option value="$PROJECT_DIR$/configs/casesconf.yaml" />
         <option value="$PROJECT_DIR$/scripts/handle_excel.py" />
-        <option value="$PROJECT_DIR$/cases/test_03_recharge.py" />
         <option value="$PROJECT_DIR$/scripts/handle_re.py" />
         <option value="$PROJECT_DIR$/cases/test_05_verify.py" />
+        <option value="$PROJECT_DIR$/cases/test_01_register.py" />
+        <option value="$PROJECT_DIR$/cases/test_03_recharge.py" />
       </list>
     </option>
   </component>
@@ -103,6 +185,26 @@
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,28 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="handle_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="future" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/handle_re.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_03_recharge.py">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="future" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +266,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_03_recharge.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="future" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/test_03_recharge.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_04_add.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -230,19 +325,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.handle_re" />
       <item itemvalue="Python.run" />
       <item itemvalue="Python tests.Unittests in test_04_add.py" />
       <item itemvalue="Python tests.Unittests in test_05_verify.py" />
       <item itemvalue="Python tests.Unittests in test_06_invest.py" />
+      <item itemvalue="Python tests.Unittests in test_03_recharge.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_03_recharge.py" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in test_05_verify.py" />
         <item itemvalue="Python tests.Unittests in test_04_add.py" />
         <item itemvalue="Python tests.Unittests in test_06_invest.py" />
-        <item itemvalue="Python.handle_re" />
       </list>
     </recent_temporary>
   </component>
@@ -271,16 +366,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575793461258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12.8的接口测试">
+      <created>1575793599716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575793599716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_04_add_py - 2019.11.30 at 20h 24m 44s.xml">
-      <configuration name="Unittests in test_04_add.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_05_verify_py - 2019.11.30 at 20h 29m 00s.xml">
-      <configuration name="Unittests in test_05_verify.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_04_add_py - 2019.11.30 at 20h 29m 15s.xml">
       <configuration name="Unittests in test_04_add.py" configurationId="tests" />
     </history-entry>
@@ -305,6 +401,12 @@
     <history-entry file="Unittests_in_test_05_verify_py - 2019.11.30 at 20h 57m 29s.xml">
       <configuration name="Unittests in test_05_verify.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_03_recharge_py - 2019.12.08 at 16h 42m 35s.xml">
+      <configuration name="Unittests in test_03_recharge.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_03_recharge_py - 2019.12.08 at 16h 44m 53s.xml">
+      <configuration name="Unittests in test_03_recharge.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,21 +419,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.21726191" />
       <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43464053" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2875817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.060556464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28641573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32569557" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" x="18" y="273" width="1348" height="199" id="Terminal" order="11" weight="0.3453355" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,22 +444,22 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14657739" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.21726191" />
+      <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
+      <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6960784" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33660132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.060556464" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28641573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32569557" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" x="18" y="273" width="1348" height="199" id="Terminal" order="11" weight="0.3453355" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,10 +515,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.1的接口测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1的接口测试" />
+    <MESSAGE value="12.8的接口测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.8的接口测试" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res.json()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res_data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>getattr(HandleRe, 'get_loan_id')</expression-string>
         <language-id>Python</language-id>
@@ -443,21 +562,6 @@
       </expression>
       <expression>
         <expression-string>HandleRe().get_loan_id</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>HandleRe().get_loan_id()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>obj.caseId</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>HandleRe()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -514,39 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/handle_phone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#124#133#0" expanded="true" />
-            <marker date="1574557899019" expanded="true" signature="390:395" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configs/token_infor.yaml" />
-    <entry file="file://$PROJECT_DIR$/cases/test_01_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#28#43#0" expanded="true" />
-            <marker date="1574558471819" expanded="true" signature="474:615" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/test_02_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#28#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/handle_conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -585,34 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/register_phone.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/casesconf.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/softWare/python/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="150" column="33" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/test_03_recharge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#28#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,16 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#115#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases/test_05_verify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -695,6 +733,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#115#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/register_phone.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/casesconf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/handle_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#124#133#0" expanded="true" />
+            <marker date="1574557899019" expanded="true" signature="390:395" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/test_02_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+          <folding>
+            <element signature="e#28#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/test_01_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#28#43#0" expanded="true" />
+            <marker date="1575795489494" expanded="true" signature="474:615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/test_03_recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#28#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
