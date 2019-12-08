@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575177222570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12.1的接口测试">
+      <created>1575793461257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575793461258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -311,7 +318,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.21726191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.21726191" />
       <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.21726191" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,7 +327,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2875817" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32569557" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
