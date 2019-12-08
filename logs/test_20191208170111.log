@@ -1,0 +1,10 @@
+2019-12-08 17:01:14,907 - testlog - [test_03_recharge.py-->line:75] - INFO: 不登录充值
+2019-12-08 17:01:15,346 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资人登录成功
+2019-12-08 17:01:16,271 - testlog - [test_03_recharge.py-->line:75] - INFO: 正常输入投资信息
+2019-12-08 17:01:17,057 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资人id为空
+2019-12-08 17:01:17,630 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资人id为空格
+2019-12-08 17:01:18,144 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资数量为负数
+2019-12-08 17:01:18,677 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资数量为小数
+2019-12-08 17:01:19,265 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资数量为非字数
+2019-12-08 17:01:20,037 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资数量为空
+2019-12-08 17:01:20,796 - testlog - [test_03_recharge.py-->line:75] - INFO: 投资数量为0
