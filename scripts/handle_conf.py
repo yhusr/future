@@ -29,12 +29,12 @@ class HandleConfig:
             self.conf.write(f)
 
 
-uc = HandleConfig(YAMLPATH)
-
-
 class HandleYaml:
-    def __init__(self, filepath):
-        self.filepath = filepath
+    def __init__(self, filepath=None):
+        if filepath:
+            self.filepath = filepath
+        else:
+            self.filepath = YAMLPATH
 
     def open_yaml(self, section_name, option_name):
         with open(self.filepath, encoding='utf8') as m:
@@ -47,4 +47,9 @@ class HandleYaml:
             yaml.dump(datas, y, allow_unicode=True)
 
 
-uy = HandleYaml(YAMLPATH)
+uy = HandleYaml()
+
+
+if __name__ == '__main__':
+    sql = uy.open_yaml('mysql', 'id_sql')
+    print(sql)

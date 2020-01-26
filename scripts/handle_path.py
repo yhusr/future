@@ -33,4 +33,3 @@ CASESPATH = os.path.join(BASEPATH, 'cases')
 #获取token路径
 TOKENPATH = os.path.join(CONFIGPATH,'token_infor.yaml')
 
-pass

@@ -52,6 +52,7 @@ class TestAdd(unittest.TestCase):
             self.eo.write_excel(int(obj.caseId) + 1, uy.open_yaml('excel', 'response_col'), res.text)
             if obj.caseId == 2:
                 setattr(HandleRe, 'get_loan_id', json.loads(data_num)['loan_id'])
+                getattr(HandleRe, 'get_loan_id')
             lt.info(obj.title)
 
     @classmethod
