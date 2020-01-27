@@ -3,7 +3,6 @@ Time:2019/11/6 0006
 """
 import configparser
 import yaml
-
 from scripts.handle_path import YAMLPATH
 
 
