@@ -6,7 +6,7 @@
 import unittest
 import os
 import time
-from HTMLTestRunnerNew import HTMLTestRunner
+from libs.HTMLTestRunnerNew import HTMLTestRunner
 
 from scripts.handle_conf import uy
 from scripts.handle_path import REPORTSPATH,PERSONPATH,CASESPATH
