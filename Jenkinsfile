@@ -3,14 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        build(job: 'future', quietPeriod: 5)
-      }
-    }
-
-    stage('test') {
-      steps {
-        sh '''#!/bin/bash
-python /root/.jenkins/jobs/future/run.py'''
+        sh 'python /root/.jenkins/jobs/future/run.py'
       }
     }
 
