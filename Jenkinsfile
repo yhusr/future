@@ -10,6 +10,8 @@ pipeline {
     stage('reporter') {
       steps {
         publishHTML([
+                        allowMissing: false, 
+                        alwaysLinkToLastBuild: false,
                         keepAll: true,
                         reportDir: 'reports',
                         reportFiles: 'reporter*.html',
