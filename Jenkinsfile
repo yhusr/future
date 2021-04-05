@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'python /root/.jenkins/jobs/future/run.py'
+        sh 'python run.py'
       }
     }
 
