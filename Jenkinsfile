@@ -17,7 +17,7 @@ pipeline {
                         reportFiles: 'reporter*.html',
                         reportName: "My Cool report"
                       ])
-          sh 'System.setProperty("hudson.model.DirectoryBrowserSupport.CSP" , "")'
+          System.setProperty("hudson.model.DirectoryBrowserSupport.CSP" , "")
         }
       }
 
