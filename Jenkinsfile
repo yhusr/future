@@ -8,6 +8,7 @@ pipeline {
     }
 
     stage('reporter') {
+      node {
             publishHTML (target: [
               allowMissing: false,
               alwaysLinkToLastBuild: false,
@@ -16,7 +17,8 @@ pipeline {
               reportFiles: 'index.html',
               reportName: "My Cool report"
             ])
-    }
+          }
+      }
 
   }
 }
