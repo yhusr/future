@@ -9,16 +9,17 @@ pipeline {
 
     stage('reporter') {
       steps {
-            publishHTML (target: [
-              allowMissing: false,
-              alwaysLinkToLastBuild: false,
-              keepAll: true,
-              reportDir: 'reports',
-              reportFiles: 'reporter*.html',
-              reportName: "My Cool report"
-            ])
-          }
+        publishHTML([
+                        allowMissing: false,
+                        alwaysLinkToLastBuild: false,
+                        keepAll: true,
+                        reportDir: 'reports',
+                        reportFiles: 'reporter*.html',
+                        reportName: "My Cool report"
+                      ])
+          sh 'System.setProperty("hudson.model.DirectoryBrowserSupport.CSP" , "")'
+        }
       }
 
+    }
   }
-}
