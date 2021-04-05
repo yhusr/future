@@ -8,7 +8,7 @@ pipeline {
     }
 
     stage('reporter') {
-      node {
+      steps {
             publishHTML (target: [
               allowMissing: false,
               alwaysLinkToLastBuild: false,
